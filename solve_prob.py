@@ -56,7 +56,7 @@ print([x.value() for x in vars])
 
 sum_pts = 0
 sum_min = 0
-for i in range(len(vars)):
+for i in range(len(points)):
     sum_pts += vars[i].value() * points[i]
     sum_min += vars[i].value() * minutes[i]
 
